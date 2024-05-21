@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="http://cdn.remixicon.com/releases/v1.1.1/remixicon.css" rel="stylesheet"> -->
+    
+
+</head>
+<body >
+  <nav class="flex items-center z-50 justify-center">
+    <!-- Logo -->
+    <div class="nav-logo ml-[2px] ">
+        <div class="logo">
+            
+        </div>
+    </div>
+
+    <!-- address-->
+    <div class="nav-address flex  flex-col mt-4 ">
+      <div class="onelo w-fit text-[11px] ml-4 h-fit"><h5>Dilever to</h5></div>
+      <div class="twolo">
+        <h4><i class="fa-solid fa-location-dot"></i> India
+        </h4>
+      </div>
+        <!-- <div class="address-icon">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <div class="address-container">
+            <h5>Dilever to</h5>
+            
+            <p class="location">India</p>
+        </div> -->
+
+    </div>
+
+    <!-- search  box-->
+    <div class="nav-search">
+        <div class="search-filter">
+            <div class="search-category">All Categories</div>
+            <div class="down-icon">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </div>
+        <div class="search-field">
+            <input type="text" placeholder="Search Amazon.in">
+        </div>
+        <div class="search-button">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <!-- language-->
+    <div class="nav-language ">
+            <div class="country-image"></div>
+            <div class="country-language">
+                EN <i class="fa-solid fa-caret-down"></i>
+            </div>
+    </div>
+
+    <!-- account sign in-->
+    <div class="nav-signin">
+
+        <div class="nav-signin-text">Hello, sign in</div>
+        <div class="account-list">Account & Lists <i class="fa-solid fa-caret-down"></i></div>
+    </div>
+
+    <!-- return-->
+    <div class="nav-ret-order">
+        <div>Returns</div>
+        <div>& Order</div>
+    </div>
+
+    <!-- cart-->
+    <div class="nav-cart">
+        <div class="num">0</div>
+        <div class="cart">
+            <img src="img/img/shopping-cart.png" alt="">
+            <div class="text">Cart</div>
+        </div>
+    </div>
+
+</nav>
+  <!-- <nav class="w-full h-16 bg-black px-1  fixed top-0 left-0 z-10    flex ">
+    <div class="one w-64  h-full flex gap-4">
+      <div class="one-part h-full w-32  border-2 border-transparent hover:border-white flex items-center justify-center  ">
+          <img class="w-full h-full object-cover object-center" src="./img/img/amazon_logo.png" alt="">
+      </div>
+      <div class="two-part h-full w-32  flex">
+            <div class="two-one w-12 h-full ">
+               
+              <i class="ri-map-pin-2-fill text-white "></i>
+            </div>
+            <div class="two-two w-16 h-full flex leading-5 text-white flex-col">
+              <p class="opacity-40 ">Deliver </p>
+              <p class="opacity-40 ">to</p>
+              <h1>India</h1>
+            </div>
+      </div>
+    </div>
+    <div class="two w-[55vw] flex bg-white h-10 mt-2 rounded-r-md ">
+      <div class="box1 bg-orange-200 w-32 p-1 rounded-l-md">
+          <div class="all leading-4">
+              <h3>All</h3>
+              <h4>Categories</h4>
+          </div>
+          <div class="icon">
+              <i class="ri-arrow-down-s-fill"></i>
+          </div>
+      </div>
+      <div class="box2 flex items-center justify-center">
+          <input class=" outline-none ml-2 w-[42vw]" type="text" placeholder="Search Amazon.in">
+      </div>
+      <div class="box3 bg-yellow-600 w-11 h-full rounded-r-sm  flex items-center justify-center">
+          <i class="ri-search-line"></i>
+
+    </div>
+  </nav>  -->
+    <div class="main w-full min-h[100vw]  bg-zinc-300 relative">
+
+        <div class="nav2 w-full h-14 text-white mt-14  bg-cyan-950 px-2 flex gap-5 leading-4 py-2 ">
+          <!-- <h4>All <i class="ri-menu-line"></i></h4> -->
+          <div class="one flex gap-1 ">
+            <i class="ri-menu-line text-xl"></i>
+            <h4 class="text-xl">All</h4>
+          </div>
+               <h4 class="one">Amazon miniTV
+              </h4>
+               <h4 class="one">
+                Sell
+
+               </h4>
+               <h4 class="one">
+                Best Sellers
+
+               </h4>
+               <h4 class="one">
+                Mobiles
+
+               </h4>
+               <h4 class="one">
+                Today's Deals
+
+               </h4>
+               <h4 class="one">
+                Customer Service
+
+               </h4>
+               <h4 class="one">
+                Electronics
+               </h4>
+               <h4 class="one">
+                New Releases
+               </h4>
+               <h4 class="one">
+                Home & Kitchen
+               </h4>
+               <h4 class="one">
+                Fashion
+               </h4>
+               <h4 class="one">
+                Amazon Pay
+               </h4>
+               <h4 class="one">
+                Gift Ideas
+               </h4>
+               <h4 class="one">
+                Computers
+               </h4>
+               <h4 class="one">
+                Books
+               </h4>
+               <h4 class="one">prime</h4>
+               <h4></h4>
+            </div>
+            <div class="box w-full min-h-[40vw]  bg-amber-500 relative">
+              <div class="box-part1 w-full flex px-1 pr-2 justify-between  h-64 absolute top-60">
+                 <div class="card cursor-pointer w-[24vw] p-4 bg-white flex flex-col justify-between h-[30vw]">
+                  <div class="one"><h1 class="text-[22px] leading-7 font-medium">Appliances for your home | Up to 55% off
+                  </h1>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                        <img class="w-full h-full object-cover object-center" src="img/img/box_img/box1_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Air conditioners</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box2_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Refrigerators</h4>
+                  </div>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box3_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Microwaves</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box4_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Mobiles phone</h4>
+                  </div>
+
+                </div>
+                <div class="bor w-fit text-blue-600 border-b-[1px] cursor-pointer border-transparent hover:text-yellow-600 hover:border-b-[1px] hover:border-yellow-500  h-5"><h5>See more</h5></div>
+                 <!-- <h5 class="text-blue-600 border-b-2 border-indigo-900">See more</h5> -->
+                 </div>
+                 <div class="card cursor-pointer w-[24vw] p-4 bg-white flex flex-col justify-between h-[30vw]">
+                  <div class="one"><h1 class="text-[22px] leading-7 font-medium">Up to 60% off | Styles for men
+
+                  </h1>
+                </div>
+                <div class="two bg-white w-full h-36 flex mt-7 justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                        <img class="w-full h-full object-cover object-center" src="img/img/box_img/box5_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Washing Machines
+                    </h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box6_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Men Watches</h4>
+                  </div>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box7_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Footwear</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box8_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Bags & wallet</h4>
+                  </div>
+
+                </div>
+                <div class="bor w-fit text-blue-600 border-b-[1px] cursor-pointer border-transparent hover:text-yellow-600 hover:border-b-[1px] hover:border-yellow-500  h-5"><h5>See more</h5></div>
+                 <!-- <h5 class="text-blue-600 border-b-2 border-indigo-900">See more</h5> -->
+                 </div>
+                 <div class="card cursor-pointer w-[24vw] p-4 bg-white flex flex-col justify-between h-[30vw]">
+                  <div class="one"><h1 class="text-[22px] leading-7 font-medium">Starting ₹199 | All your home improvement needs
+
+                  </h1>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                        <img class="w-full h-full object-cover object-center" src="img/img/box_img/box9_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Women Clothings</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box10_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Helmets</h4>
+                  </div>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box11_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Home storages</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box12_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Lighting solutions</h4>
+                  </div>
+
+                </div>
+                <div class="bor w-fit text-blue-600 border-b-[1px] cursor-pointer border-transparent hover:text-yellow-600 hover:border-b-[1px] hover:border-yellow-500  h-5"><h5>See more</h5></div>
+                 <!-- <h5 class="text-blue-600 border-b-2 border-indigo-900">See more</h5> -->
+                 </div>
+
+                 <div class="card w-[25vw]  h-[30vw]">
+                    <div class="lastone w-full h-[10vw] p-4 bg-amber-50">
+                      <h1 class="text-[22px] leading-7 font-medium">Sign in for your best experience</h1>
+                      <button class="bg-yellow-400 hover:bg-yellow-500 w-72 h-8 mt-3 ml-3 rounded-md text-[15px]">sing in securely</button>
+                    </div>
+                    <div class="lasttwo w-[21vw] ml-8  mt-8  h-[17.7vw] relative">
+                   <img class="w-full h-full object-cover object-center" src="img/img/ad1_image.jpg" alt="">
+                   <h5 class="ml-[14.5vw] font-[300] cursor-pointer  hover:font-[500] text-sm">sponsored <i class="ri-information-2-fill text-sm"></i> </h5>
+                    </div>
+                 </div>
+              </div>
+            </div>
+            <div class="box2 bg-zinc-300 w-full h-[30vw]">
+              <div class="carddiv  w-full flex justify-between h-72 px-1 pr-2 mt-32 ">
+                <div class="card cursor-pointer w-[24vw] p-4 bg-white flex flex-col justify-between h-[30vw]">
+                  <div class="one"><h1 class="text-[22px] leading-7 font-medium">Starting ₹199 | All your home improvement needs
+
+                  </h1>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                        <img class="w-full h-full object-cover object-center" src="img/img/box_img/box9_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Women Clothings</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box10_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Helmets</h4>
+                  </div>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box11_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Home storages</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box12_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Lighting solutions</h4>
+                  </div>
+
+                </div>
+                <div class="bor w-fit text-blue-600 border-b-[1px] cursor-pointer border-transparent hover:text-yellow-600 hover:border-b-[1px] hover:border-yellow-500  h-5"><h5>See more</h5></div>
+                 <!-- <h5 class="text-blue-600 border-b-2 border-indigo-900">See more</h5> -->
+                 </div>
+                <div class="card cursor-pointer w-[24vw] p-4 bg-white flex flex-col justify-between h-[30vw]">
+                  <div class="one"><h1 class="text-[22px] leading-7 font-medium">Appliances for your home | Up to 55% off
+                  </h1>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                        <img class="w-full h-full object-cover object-center" src="img/img/box_img/box1_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Air conditioners</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box2_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Refrigerators</h4>
+                  </div>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box3_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Microwaves</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box4_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Mobiles phone</h4>
+                  </div>
+
+                </div>
+                <div class="bor w-fit text-blue-600 border-b-[1px] cursor-pointer border-transparent hover:text-yellow-600 hover:border-b-[1px] hover:border-yellow-500  h-5"><h5>See more</h5></div>
+                 <!-- <h5 class="text-blue-600 border-b-2 border-indigo-900">See more</h5> -->
+                 </div>
+                 <div class="card cursor-pointer w-[24vw] p-4 bg-white flex flex-col justify-between h-[30vw]">
+                  <div class="one"><h1 class="text-[22px] leading-7 font-medium">Up to 60% off | Styles for men
+
+                  </h1>
+                </div>
+                <div class="two bg-white w-full h-36 flex mt-7 justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                        <img class="w-full h-full object-cover object-center" src="img/img/box_img/box5_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Washing Machines
+                    </h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box6_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Men Watches</h4>
+                  </div>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box7_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Footwear</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box8_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Bags & wallet</h4>
+                  </div>
+
+                </div>
+                <div class="bor w-fit text-blue-600 border-b-[1px] cursor-pointer border-transparent hover:text-yellow-600 hover:border-b-[1px] hover:border-yellow-500  h-5"><h5>See more</h5></div>
+                 <!-- <h5 class="text-blue-600 border-b-2 border-indigo-900">See more</h5> -->
+                 </div>
+                 <div class="card cursor-pointer w-[25vw] p-4 bg-white flex flex-col justify-between h-[30vw]">
+                  <div class="one"><h1 class="text-[22px] leading-7 font-medium">Starting ₹199 | All your home improvement needs
+
+                  </h1>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                        <img class="w-full h-full object-cover object-center" src="img/img/box_img/box9_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Women Clothings</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box10_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Helmets</h4>
+                  </div>
+                </div>
+                <div class="two bg-white w-full h-36 flex justify-between">
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box11_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Home storages</h4>
+                  </div>
+                  <div class="two-1 w-[10.5vw]  h-full">
+                    <div class="twoopart w-full  h-28">
+                      <img class="w-full h-full object-cover object-center" src="img/img/box_img/box12_image.jpg" alt="">
+                    </div>
+                    <h4 class="mt-1 font-[300] cursor-pointer text-[14px] ease-out duration-300 hover:text-[15px] hover:font-[500]">Lighting solutions</h4>
+                  </div>
+
+                </div>
+                <div class="bor w-fit text-blue-600 border-b-[1px] cursor-pointer border-transparent hover:text-yellow-600 hover:border-b-[1px] hover:border-yellow-500  h-5"><h5>See more</h5></div>
+                 <!-- <h5 class="text-blue-600 border-b-2 border-indigo-900">See more</h5> -->
+                 </div>
+
+                 
+              </div>
+            </div>
+
+          <div class="box3 flex flex-col gap-6  w-full p-6 h-[55vw]">
+            <!-- <h1 class="text-2xl font-medium">Best sellers in Home kitchen</h1> -->
+
+            <div class="box3img bg-white p-5 cursor-pointer   w-full h-[25vw]">
+              <h1 class="text-2xl font-medium mt-2">Best sellers in Home kitchen</h1>
+
+              <div class="box4img flex flex-nowrap overflow-x-auto overflow-y-hidden w-full h-[18.5vw] ">
+              <div class="imgp   flex gap-4   mt-8 h-fit">
+                <div class="imgo shrink-0 transition-all duration-300  h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img1.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img2.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img3.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img4.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img5.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img6.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img7.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img8.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img9.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img10.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img11.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img12.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img13.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img14.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img15.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img16.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img17.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img18.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img19.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img20.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img3.jpg" alt="">
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="box3img bg-white p-5 cursor-pointer   w-full h-[25vw]">
+              <h1 class="text-2xl font-medium mt-2">Trendy Home Decor</h1>
+
+              <div class="box4img flex flex-nowrap overflow-x-auto overflow-y-hidden w-full h-[18.5vw] ">
+              <div class="imgp   flex gap-4   mt-8 h-fit">
+                <div class="imgo shrink-0 transition-all duration-300  h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img11.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img12.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img13.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img14.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img15.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img16.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img17.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img18.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img19.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img20.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img1.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img2.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img3.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img4.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img5.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img6.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img7.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img8.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img9.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img10.jpg" alt="">
+                </div>
+                <div class="imgo shrink-0 transition-all duration-300 h-[14.5vw] ">
+                  <img class="w-full h-full  object-contain object-center" src="img/img/box_silde_img/bs_img3.jpg" alt="">
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="box4 w-full h-[56vw] bg-[#131a22]">
+                <div class="part1 w-full h-14 cursor-pointer flex items-center justify-center hover:bg-[#3d4f63] bg-[#344456]">
+                   <h4 class="text-white text-lg">Back to top</h4>
+                </div>
+                <div class="part2 w-full bg-[#232f3e] flex  justify-center h-[23vw]">
+                  <div class="part3 mt-16 flex justify-center gap-14">
+                    <div class="point  h-[25vw] w-fit">
+                      <h3 class="text-lg font-medium text-white">Get to Know Us
+                     </h3>
+                     <div  class="elem mt-2 text-sm text-[#cfd1d1]">
+                       <h5>about us</h5>
+                       <h5>Careers</h5>
+                       <h5>Press Releases</h5>
+                       <h5>Amazon Science</h5>
+ 
+                     </div>
+                 </div>
+                 <div class="point  text-white  h-[25vw] w-fit">
+                  <h3 class="text-lg font-medium ">Connect with Us
+
+                  </h3>
+                  <div  class="elem mt-2 text-sm text-[#cfd1d1]">
+                    <h5>Facebook</h5>
+                    <h5>Twitter</h5>
+                    <h5>Instagram</h5>
+                    
+
+                  </div>
+
+                 </div>
+                 <div class="point  h-[25vw] w-fit">
+                  <h3 class="text-lg font-medium text-white">
+                    Make money with us
+                  </h3>
+                  <div  class="elem mt-2 text-sm text-[#cfd1d1]">
+                    <h5>Sell on Amazon</h5>
+                    <h5>Sell under Amazon Accelator</h5>
+                    <h5>Product and build your Brand</h5>
+                    <h5>Amazon Global selling</h5>
+                    <h5>Become a Affiliate</h5>
+                    <h5>Fulfilment by amazon</h5>
+                    <h5>Amazon pay on urgent</h5>
+
+                  </div>
+
+                 </div>
+                 <div class="point h-[25vw] w-fit">
+                  <h3 class="text-lg font-medium text-white">Let us Help you
+                  </h3>
+                  <div  class="elem mt-2 text-sm text-[#cfd1d1]">
+                    <h5>Covid 19 and Amazon</h5>
+                    <h5>Your account</h5>
+                    <h5>Return center</h5>
+                    <h5>Amazon Science</h5>
+                    <h5>100% purchase protection</h5>
+                    <h5>Amazon help down</h5>
+                  </div>
+
+                 </div>
+                  </div>
+
+                  <!-- <div class="point"></div> -->
+                </div>
+                <div class="part3 w-full flex gap-16 justify-center items-center bg-[#232f3e] h-28 border-t-[1px] border-zinc-500">
+                       <div class="logodown w-28 flex items-center h-16  ">
+                        <img class="w-full object-cover h-full" src="img/img/amazon_logo.png" alt="">
+                       </div>
+                       <div class="logo2 w-72 gap-4 h-9 flex ">
+                        <div class="logo2one h-9 w-28 border-[1px] gap-1 flex rounded-sm justify-center items-center border-white ">
+                          <div class="glob"><i class="ri-global-line text-xl text-white"></i></div>
+                          <h4 class="text-white text-lg">English</h4>
+                        </div>
+                        <div class="logo2two h-9 border-[1px] rounded-sm flex justify-center items-center gap-1 w-28">
+                          <div class="imgindia w-5 h-3">
+                            <img class="w-full h-full object-cover " src="./img/img/country.png" alt="">
+                          </div>
+                          <h4 class="text-white">India</h4>
+                        </div>
+                       </div>
+                </div>
+                <div class="part4 w-full h-[15vw] flex justify-center items-center bg-[#131a22]">
+                   <div class="part4main w-full h-full flex justify-center items-center  flex-col ">
+                      <div class="footone w-full h-full flex gap-20 justify-center items-center  ">
+                        <div class="footer w-[8vw] h-fit  flex flex-col gap-7  ">
+                          <div class="footpart w-fit h-fit ">
+                            <h3 class="text-white text-[14px]">AbeBooks</h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">Books,art</h5>
+                            <h5 class=" text-[12px] ">& collection</h5>
+                            </div>
+
+                          </div>
+                          <div class="footpart w-fit h-fit ">
+                            <h3 class="text-white text-[14px]">Shopbop
+  
+                            </h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">Everything For
+  
+                            </h5>
+                            <h5 class=" text-[12px] ">Your Business
+  
+                            </h5>
+                            </div>
+                          </div>
+  
+  
+                        </div>
+                        <div class="footer w-fit h-fit flex flex-col gap-7  ">
+                          <div class="footpart w-fit h-fit ">
+                            <h3 class="text-white text-[14px]">Amazon Web Services</h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">Scalable cloud</h5>
+                            <h5 class=" text-[12px] ">Computing services</h5>
+                            </div>
+                          </div>
+                          <div class="footpart w-fit h-fit ">
+                            <h3 class="text-white text-[14px]">Amazon Business
+                            </h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">Everything For
+                            </h5>
+                            <h5 class=" text-[12px] ">Your Business
+                            </h5>
+                            </div>
+                          </div>
+  
+  
+                        </div>
+                        <div class="footer w-fit h-fit flex flex-col gap-7  ">
+                          <div class="footpart w-fit h-fit ">
+                            <h3 class="text-white text-[14px]">Audible</h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">Download</h5>
+                            <h5 class=" text-[12px] ">Audio Books</h5>
+                            </div>
+                          </div>
+                          <div class="footpart w-fit h-fit">
+                            <h3 class="text-white text-[14px]">Prime Now
+                            </h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">2-Hour Delivery
+                            </h5>
+                            <h5 class=" text-[12px] ">on Everyday Items
+                            </h5>
+                            </div>
+                          </div>
+  
+  
+  
+                        </div>
+                        <div class="footer w-fit h-fit flex flex-col gap-7  ">
+  
+                          <div class="footpart w-fit h-fit ">
+                            <h3 class="text-white text-[14px]">IMDb</h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">Movies TV</h5>
+                            <h5 class=" text-[12px] ">& celibirity</h5>
+                            </div>
+                          </div>
+                          <div class="footpart w-fit h-fit ">
+                            <h3 class="text-white text-[14px]">Amazon Prime Music
+                            </h3>
+                            <div class="tittle leading-4 text-[#cfd1d1]">
+                            <h5 class="text-[12px] ">100 million songs, ad-free
+                            </h5>
+                            <h5 class=" text-[12px] ">Over 15 million podcast episodes
+                            </h5>
+                            </div>
+                          </div>
+  
+                        </div>
+  
+                   </div>
+                </div>
+
+          </div>
+          <div class="part5 w-full h-[6vw] text-white flex gap-1 justify-center items-center flex-col bg-[#131a22]">
+            <div class="part5one w-full flex text-[12px] justify-center gap-5 items-center">
+              <h5>Conditions of Use & Sale 
+              </h5>
+              <h5>Privacy Notice</h5>
+              <h5>Interest-Based Ads
+              </h5>
+            </div>
+            <h5 class="text-[12px] text-zinc-300"><i class="ri-copyright-line text-[14px]"></i> 1996-2024, Amazon.com, Inc. or its affiliates</h5>
+          </div>
+    </div>
+</body>
+</html>
